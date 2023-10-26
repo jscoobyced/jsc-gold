@@ -1,0 +1,21 @@
+{
+  "name": "jsc-gold",
+  "version": "1.0.0",
+  "description": "Fetch gold price to a JSON historical file.",
+  "main": "index.js",
+  "repository": "https://github.com/jscoobyced/jsc-gold",
+  "author": "Cédric Rochefolle",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./bin/index.js",
+    "dev": "ts-node ./src/index.ts"
+  },
+  "dependencies": {
+    "@types/node": "^20.8.7",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
