@@ -5,4 +5,4 @@ etc
 lib
 share
 pyvenv.cfg
-*.json
+historical*.json
