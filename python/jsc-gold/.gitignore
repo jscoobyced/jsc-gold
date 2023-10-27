@@ -5,3 +5,4 @@ etc
 lib
 share
 pyvenv.cfg
+*.json
